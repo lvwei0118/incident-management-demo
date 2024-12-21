@@ -26,7 +26,7 @@ public class IncidentController {
      * 事件列表查询
      */
     @GetMapping("/list")
-    public Page<Incident> list(@RequestParam(value = "page", defaultValue = "1") Integer page, @RequestParam(value ="size",defaultValue ="15") Integer size) {
+    public Page<Incident> list(@RequestParam(value = "page", defaultValue = "0") Integer page, @RequestParam(value ="size",defaultValue ="15") Integer size) {
         return incidentService.findAll(page,size,"id");
     }
 

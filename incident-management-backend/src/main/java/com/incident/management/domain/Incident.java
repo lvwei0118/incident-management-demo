@@ -1,6 +1,5 @@
 package com.incident.management.domain;
 
-import cn.hutool.core.date.DateTime;
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -8,12 +7,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
  * 事件表
- * @TableName user
+ * @TableName Incident
  */
 @Data
 @Entity
