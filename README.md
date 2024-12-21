@@ -105,7 +105,7 @@ npm build
 │  ├─logs（日志）
 │  ├─doc  文档
 │  ├─src 
-│  │  ├─mian 
+│  │  ├─main 
 │  │  ├─java
 │  │  │  ├─com.incident.management
 │  │  │  ├─common   -- 通用工具类
@@ -226,7 +226,7 @@ npm build
 
 4、作为分布式系统集成，整合Nginx、Dubbo、Nacos等微服务框架，并更新自增id为UUID或雪花算法ID实现幂等性，采用redission为分布式锁。
 
-5、添加用户、角色等功能，采用shiro框架借助jwt来完完成身份认证及登录，使用对事件进行更精细的管理。
+5、添加用户、角色等功能，采用shiro框架借助jwt来完成身份认证及登录，对事件进行更精细的管理。
 
 6、优化并发性能，使用配置文件动态配置线程池参数，优化事务为手动提交，避免事务失效。
 
