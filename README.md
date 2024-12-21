@@ -85,6 +85,12 @@ npm start
 npm build
 ```
 
+前端访问地址：
+
+```
+[http://localhost:3000]
+```
+
 执行命令后会得到 dist 目录，可以放到自己的 web 服务器指定的路径；也可以使用 Docker 容器部署，将 dist、Dockerfile、docker 目录（文件）一起打包即可。
 
 ## 后端
