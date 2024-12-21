@@ -124,6 +124,9 @@ export default function IncidentForm(props) {
                                 className="desc"
                                 label="Description"
                                 name="description"
+                                rules={[
+                                    { required: true, message: 'Please input incident description!' },
+                                ]}
                             >
                                 <Input.TextArea allowClear />
                             </FormItem>
